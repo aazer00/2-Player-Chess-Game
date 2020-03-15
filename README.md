@@ -24,3 +24,5 @@ This function tries to find if there is a way to get out of the check situation.
 These positions used to determine checkmate situation. Checkmate function uses this positions in order to check if there is a legal move of any piece that can break check situation. Add_road() functions append these positions to the Arraylist. In every turn pawn_to_queen() function iterate throught all the squares on the board and check if there is any pawn that reach first or last row of board and if there is any this function turn it to the queen. 
 
 There is a ListBox on the right side of the Form. This ListBox is used to describe moves on the screen. If there is checkmate in game Form 3 appears. Winner side is described in Form3. There 2 option in this Form.  “Play Again” option is used to restart game. “Back to Menu” option is used to return first Form. Game is over if this Form appears. 
+
+![](images/chess1.png)
